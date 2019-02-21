@@ -4,7 +4,7 @@ class NewsItem extends React.Component {
   render() {
     const { id, title } = this.props.articles;
     return (
-      <article>
+      <article className="article-list-stories">
         <h1>{title}</h1>
         <p>
           Here's some sample text from the article Here's some sample text from the article Here's
