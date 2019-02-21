@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.App {
+  display: flex;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
@@ -16,10 +20,10 @@ a {
 
 nav {
   height: 100vh;
-  width: 20%;
   display: flex;
   flex-flow: column nowrap;
   background-color: black;
+  padding: 10px 30px;
 }
 
 nav ul {
@@ -35,7 +39,13 @@ nav ul li {
   padding-bottom: 20px;
 }
 
-h1 {
+nav h1 {
   color: lightblue;
   text-align: center;
+}
+
+#news-list-container {
+  color: black;
+  font-size: 3em;
+
 }
