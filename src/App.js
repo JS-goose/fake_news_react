@@ -13,37 +13,37 @@ class App extends Component {
       },
       {
         id: 1,
-        title: "News Story One",
+        title: "News Story Two",
         read: false,
       },
       {
         id: 2,
-        title: "News Story One",
+        title: "News Story Three",
         read: false,
       },
       {
         id: 3,
-        title: "News Story One",
+        title: "News Story Four",
         read: false,
       },
       {
         id: 4,
-        title: "News Story One",
+        title: "News Story Five",
         read: false,
       },
       {
         id: 5,
-        title: "News Story One",
+        title: "News Story Six",
         read: false,
       },
       {
         id: 6,
-        title: "News Story One",
+        title: "News Story Seven",
         read: false,
       },
       {
         id: 7,
-        title: "News Story One",
+        title: "News Story Eight",
         read: false,
       },
     ],
@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <section className="App">
         <Header />
-        <NewsList />
+        <NewsList articles={this.state.articles}/>
       </section>
     );
   }
