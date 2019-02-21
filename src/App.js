@@ -52,7 +52,9 @@ class App extends Component {
     return (
       <section className="App">
         <Header />
-        <NewsList articles={this.state.articles}/>
+        <section id="news-list-container" articles={this.props.articles}>
+          <NewsList articles={this.state.articles} />
+        </section>
       </section>
     );
   }

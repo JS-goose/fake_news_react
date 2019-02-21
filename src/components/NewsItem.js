@@ -2,9 +2,10 @@ import React from "react";
 
 class NewsItem extends React.Component {
   render() {
+      const {id, title} = this.props.articles;
     return (
-      <article articles={this.props.articles}>
-        <p>This is a news article</p>
+      <article>
+        <p>{title}</p>
       </article>
     );
   }
