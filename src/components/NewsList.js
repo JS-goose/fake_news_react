@@ -1,16 +1,14 @@
 import React from 'react';
+import NewsItem from './NewsItem';
 
-Class NewsList extends React.Component {
-    constructor (props) {
-        super(props);
-    }
-
+class NewsList extends React.Component {
     render() {
         return (
             <section>
                 <h1>
                     This is the news stories container Component
                 </h1>
+                <NewsItem />
             </section>
         )
     }
