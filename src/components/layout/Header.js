@@ -4,6 +4,7 @@ export default function Header() {
   return (
     <header>
       <nav id="navbar">
+      <h1>Fake News Site</h1>
         <ul>
           <li className="nav-links">
             <a href="#home">Home</a>
