@@ -4,7 +4,7 @@ import NewsItem from './NewsItem';
 class NewsList extends React.Component {
     render() {
         return (
-            <section>
+            <section id="news-list-container">
                 <h1>
                     This is the news stories container Component
                 </h1>
