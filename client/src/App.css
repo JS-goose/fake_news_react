@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.App {
+.container {
   display: flex;
 }
 
@@ -45,7 +45,10 @@ nav h1 {
   font-size: 1.9em;
 }
 
-#news-list-container {
+#website-list-container {
   color: black;
+}
 
+.article-list-stories {
+  margin: 5px;
 }

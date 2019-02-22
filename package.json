@@ -1,28 +1,27 @@
 {
-  "name": "fake_news_react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "braces": "^2.3.2",
-    "eslint": "^5.12.0",
-    "react": "^16.8.3",
-    "react-dom": "^16.8.3",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.5"
-  },
+  "name": "news-api",
+  "version": "1.0.0",
+  "description": "Fake news api",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "concurrently \"npm run nodemon\" \"npm run start-client\"",
+    "install-client": "cd client && npm install",
+    "install-server": "npm install",
+    "nodemon": "nodemon server.js",
+    "start": "node server.js",
+    "start-client": "cd client && npm start"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "keywords": [],
+  "author": "Jonathan Sexton",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
