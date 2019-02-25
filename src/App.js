@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/layout/Header";
 import NewsList from "./components/NewsList";
+import About from "./components/pages/About";
 
 class App extends Component {
   state = {
@@ -63,6 +64,7 @@ class App extends Component {
               </section>
             )}
           />
+        <Route path="/about" component={About} />
         </section>
       </Router>
     );
