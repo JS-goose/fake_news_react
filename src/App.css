@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: rgb(33, 119, 218);
+  color: rgb(1, 81, 173);
   text-decoration: none;
 }
 
@@ -22,8 +22,9 @@ nav {
   height: 100vh;
   display: flex;
   flex-flow: column nowrap;
-  background-color: black;
+  background-color: gray;
   padding: 10px 30px;
+  border-right: 1px solid rgb(65, 65, 65);
 }
 
 nav ul {
@@ -40,9 +41,10 @@ nav ul li {
 }
 
 nav h1 {
-  color: lightblue;
+  color: rgb(110, 202, 233);
   text-align: center;
   font-size: 1.9em;
+  text-shadow: 1px 1px 3px rgb(39,39,39);
 }
 
 #news-list-container {
