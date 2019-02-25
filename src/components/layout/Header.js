@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header>
       <nav id="navbar">
-      <h1>Fake News Site</h1>
+        <h1>Fake News Site</h1>
         <ul>
           <li className="nav-links">
-            <a href="#home">Home</a>
+          <Link to="/">Home</Link>
           </li>
           <li className="nav-links">
-            <a href="#about">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li className="nav-links">
             <a href="#news">News</a>
