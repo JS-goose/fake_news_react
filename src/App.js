@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import Header from "./components/layout/Header";
 import NewsList from "./components/NewsList";
@@ -50,12 +51,20 @@ class App extends Component {
   };
   render() {
     return (
-      <section className="App">
-        <Header />
-        <section id="news-list-container" articles={this.props.articles}>
-          <NewsList articles={this.state.articles} />
+      <Router>
+        <section className="App">
+          <Header />
+          <Route
+            exact
+            path="/"
+            render={(props) => (
+              <section id="news-list-container" articles={this.props.articles}>
+                <NewsList articles={this.state.articles} />
+              </section>
+            )}
+          />
         </section>
-      </section>
+      </Router>
     );
   }
 }
