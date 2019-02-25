@@ -25,6 +25,7 @@ nav {
   background-color: gray;
   padding: 10px 30px;
   border-right: 1px solid rgb(65, 65, 65);
+  width: 250px;
 }
 
 nav ul {
@@ -43,11 +44,11 @@ nav ul li {
 nav h1 {
   color: rgb(110, 202, 233);
   text-align: center;
-  font-size: 1.9em;
+  font-size: 1.6em;
   text-shadow: 1px 1px 3px rgb(39,39,39);
 }
 
 #news-list-container {
   color: black;
-
+  width: 100%;
 }
