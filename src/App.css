@@ -53,3 +53,8 @@ nav h1 {
   width: 100%;
   margin: 10px;
 }
+
+.article-list-stories {
+  padding: 10px;
+  border-bottom: 1px solid darkgrey;
+}
