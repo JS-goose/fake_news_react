@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import axios from 'axios';
 import "./App.css";
 import Header from "./components/layout/Header";
 import NewsList from "./components/NewsList";
@@ -64,7 +65,7 @@ class App extends Component {
               </section>
             )}
           />
-        <Route path="/about" component={About} />
+          <Route path="/about" component={About} />
         </section>
       </Router>
     );
