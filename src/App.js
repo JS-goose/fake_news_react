@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import axios from 'axios';
+import axios from "axios";
 import "./App.css";
 import Header from "./components/layout/Header";
 import NewsList from "./components/NewsList";
@@ -51,6 +51,13 @@ class App extends Component {
       },
     ],
   };
+
+  componentDidMount() {
+    axios
+    .get("localhost:5000/api/fakesites")
+    .then((response) => console.log(response));
+  }
+
   render() {
     return (
       <Router>
