@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.App {
+.container {
   display: flex;
 }
 
@@ -48,21 +48,10 @@ nav h1 {
   text-shadow: 1px 1px 3px rgb(39,39,39);
 }
 
-#news-list-container {
+#website-list-container {
   color: black;
-  width: 100%;
-  margin: 10px;
 }
 
 .article-list-stories {
-  padding: 10px;
-  border-bottom: 1px solid darkgrey;
-}
-
-.article-titles {
-  border-bottom: 1px solid lightgray;
-  width: 15%;
-  text-align: center;
-  font-size: 1.3em;
-  padding: 5px;
+  margin: 5px;
 }
