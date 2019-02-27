@@ -52,11 +52,16 @@ class App extends Component {
     ],
   };
 
-  componentDidMount() {
+  componentDidMount = () => {
     axios
-    .get("localhost:5000/api/fakesites")
-    .then((response) => console.log(response));
-  }
+      .get("/api/fakesites")
+      .then((response) => console.log(response))
+      .catch(
+        (error) =>
+          alert(`Error fetching data, check console for more information`) &&
+          console.error({ error })
+      );
+  };
 
   render() {
     return (
