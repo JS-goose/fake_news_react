@@ -8,13 +8,19 @@ export default function Header() {
         <h1>Fake News Site</h1>
         <ul>
           <li className="nav-links">
-          <Link to="/">Home</Link>
+            <Link to="/">
+              <button>Home</button>
+            </Link>
           </li>
           <li className="nav-links">
-            <Link to="/about">About</Link>
+            <Link to="/about">
+            <button>About</button>
+            </Link>
           </li>
           <li className="nav-links">
-            <a href="#news">News</a>
+            <Link to="/about">
+            <button>All categories</button>
+            </Link>
           </li>
           <li className="nav-links">
             <a href="#login">Log In</a>
