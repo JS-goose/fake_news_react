@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: rgb(1, 81, 173);
+  color: rgb(43, 106, 201);
   text-decoration: none;
 }
 
@@ -22,7 +22,7 @@ nav {
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
-  background-color: gray;
+  background-color: rgb(43, 106, 201);
   padding: 10px 30px;
   border-right: 1px solid rgb(65, 65, 65);
   width: 250px;
