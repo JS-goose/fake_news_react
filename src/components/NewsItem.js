@@ -11,7 +11,10 @@ class NewsItem extends React.Component {
           some sample text from the article Here's some sample text from the article Here's some
           sample text from the article Here's some sample text from the article
         </p>
-        <a href={url}>Article Home</a> | likes: {likes} | searches: {google_searches}
+        <div>
+          <a href={url}>Article Home</a> | <i class="far fa-thumbs-up" /> {likes} |{" "}
+          <i class="fas fa-search" /> {google_searches}
+        </div>
       </article>
     );
   }
