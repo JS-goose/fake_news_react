@@ -28,6 +28,10 @@ nav {
   width: 250px;
 }
 
+.nav-links a {
+  color: black;
+  border-bottom: 1px solid black;
+}
 nav ul {
   list-style: none;
   display: flex;
