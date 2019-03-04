@@ -23,6 +23,21 @@ export default function Header() {
             </Link>
           </li>
           <li className="nav-links">
+            <Link to="/about">
+            <button>Fake News</button>
+            </Link>
+          </li>
+          <li className="nav-links">
+            <Link to="/about">
+            <button>Conspiracy</button>
+            </Link>
+          </li>
+          <li className="nav-links">
+            <Link to="/about">
+            <button>Click Bait</button>
+            </Link>
+          </li>
+          <li className="nav-links">
             <a href="#login">Log In</a>
           </li>
         </ul>
