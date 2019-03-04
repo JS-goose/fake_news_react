@@ -21,7 +21,7 @@ a {
 nav {
   height: 100%;
   display: flex;
-  flex-flow: column nowrap;
+  flex-direction: column;
   background-color: rgb(43, 106, 201);
   padding: 10px 30px;
   border-right: 1px solid rgb(65, 65, 65);
@@ -60,7 +60,7 @@ nav h1 {
 
 #news-list-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(200px, auto));
   color: black;
   width: 100%;
   margin: 10px;
@@ -73,7 +73,6 @@ nav h1 {
 
 .article-titles {
   border-bottom: 1px solid lightgray;
-  width: 15%;
   text-align: center;
   font-size: 1.3em;
   padding: 5px;
