@@ -8,9 +8,11 @@
   display: flex;
 }
 
-body {
+html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
+  height: 100%;
+  width: 100%;
 }
 
 a {
