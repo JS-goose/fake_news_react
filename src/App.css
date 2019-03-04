@@ -59,6 +59,8 @@ nav h1 {
 }
 
 #news-list-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   color: black;
   width: 100%;
   margin: 10px;
