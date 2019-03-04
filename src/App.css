@@ -6,13 +6,13 @@
 
 .App {
   display: flex;
+  height: 100%;
 }
 
 html, body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
   height: 100%;
-  width: 100%;
 }
 
 a {
@@ -21,9 +21,10 @@ a {
 }
 
 nav {
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   background-color: rgb(43, 106, 201);
   padding: 10px 30px;
   border-right: 1px solid rgb(65, 65, 65);
@@ -64,6 +65,7 @@ nav h1 {
   grid-template-columns: repeat(3, minmax(200px, auto));
   color: black;
   width: 100%;
+  height: 100%;
   margin: 10px;
 }
 
