@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import axios from "axios";
 import "./App.css";
-import Header from "./components/layout/Header";
+import Sidebar from "./components/layout/Sidebar";
 import NewsList from "./components/NewsList";
 import About from "./components/pages/About";
 
@@ -26,7 +26,7 @@ class App extends Component {
     return (
       <Router>
         <section className="App">
-          <Header />
+          <Sidebar />
           <Route
             exact
             path="/"
