@@ -1,3 +1,12 @@
+# Fake News - React
+This is a project built for learning purposes only and as such none of the "articles" are factual.  Some of the links do work and link to legitimate websites but other than that it's all made up.
+
+This is a collaboration project between myself and [@Josep1992](https://github.com/Josep1992) who built the API from which the stories are derived.  Find the full documentation for the [Fake News API here](https://github.com/Josep1992/fake_news_api_express).
+
+<hr>
+
+ 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
