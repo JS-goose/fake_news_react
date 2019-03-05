@@ -91,6 +91,12 @@ nav h1 {
   text-shadow: 1px 1px 3px rgb(39,39,39);
 }
 
+#latest-stories a {
+  color: rgb(243, 247, 2);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 #news-list-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, auto));
