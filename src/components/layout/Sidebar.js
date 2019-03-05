@@ -48,10 +48,16 @@ class Sidebar extends React.Component {
             <li className="sidebar-title">
               <p>Latest Stories</p>
             </li>
-            <li>{this.props.articles.map((item) => {
-              console.log(item)
-              return <li><a href={item.url} target="_blank">{item.title}</a></li>
-            })}</li>
+            {this.props.articles.map((item) => {
+              const { id, url, title } = item;
+              return (
+                <li key={id}>
+                  <a href={url} rel="noopener noreferrer" target="_blank">
+                    {title}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </section>
       </header>
