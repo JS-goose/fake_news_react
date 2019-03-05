@@ -9,6 +9,15 @@ This is a collaboration project between myself and [@Josep1992](https://github.c
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Installation 
+
+* Fork or download the project
+* Navigate to the directory
+* In your terminal, run <code>npm install</code>
+* Install the API (see above)
+* Once all dependencies are installed, run <code>npm start</code>
+
+
 ## Available Scripts
 
 In the project directory, you can run:
