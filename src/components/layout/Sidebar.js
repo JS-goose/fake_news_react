@@ -47,6 +47,9 @@ export default function Header() {
       </nav>
       <section id="latest-stories">
         <ul>
+          <li className="sidebar-title">
+            <p>Latest Stories</p>
+          </li>
           <li>News story one</li>
           <li>News story one</li>
           <li>News story one</li>
