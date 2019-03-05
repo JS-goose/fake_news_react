@@ -28,12 +28,12 @@ class App extends Component {
       <Router>
         <section className="App">
           <Sidebar />
-          <Header />
           <Route
             exact
             path="/"
             render={(props) => (
               <section id="news-list-container" articles={this.props.articles}>
+                <Header />
                 <NewsList articles={this.state.articles} />
               </section>
             )}
