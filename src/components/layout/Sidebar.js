@@ -7,6 +7,9 @@ export default function Header() {
       <nav id="navbar">
         <h1>Fake News Site</h1>
         <ul>
+          <li className="nav-links-title">
+            <p>Sidebar Navigation</p>
+          </li>
           <li className="nav-links">
             <Link to="/">
               <button>Home</button>
@@ -14,27 +17,27 @@ export default function Header() {
           </li>
           <li className="nav-links">
             <Link to="/about">
-            <button>About</button>
+              <button>About</button>
             </Link>
           </li>
           <li className="nav-links">
             <Link to="/about">
-            <button>All categories</button>
+              <button>All categories</button>
             </Link>
           </li>
           <li className="nav-links">
             <Link to="/about">
-            <button>Fake News</button>
+              <button>Fake News</button>
             </Link>
           </li>
           <li className="nav-links">
             <Link to="/about">
-            <button>Conspiracy</button>
+              <button>Conspiracy</button>
             </Link>
           </li>
           <li className="nav-links">
             <Link to="/about">
-            <button>Click Bait</button>
+              <button>Click Bait</button>
             </Link>
           </li>
           <li className="nav-links">
