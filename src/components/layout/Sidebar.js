@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <nav id="navbar">
         <h1>Fake News Site</h1>
-        <ul>
+        <ul id="nav-links-list">
           <li className="sidebar-title">
             <p>Sidebar Navigation</p>
           </li>
@@ -46,7 +46,7 @@ export default function Header() {
         </ul>
       </nav>
       <section id="latest-stories">
-        
+
       </section>
     </header>
   );
