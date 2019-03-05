@@ -41,9 +41,6 @@ class Sidebar extends React.Component {
                 <button>Click Bait</button>
               </Link>
             </li>
-            <li className="nav-links">
-              <a href="#login">Log In</a>
-            </li>
           </ul>
         </nav>
         <section id="latest-stories">
