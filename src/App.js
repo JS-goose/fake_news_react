@@ -27,8 +27,8 @@ class App extends Component {
     return (
       <Router>
         <section className="App">
-          <Header />
           <Sidebar />
+          <Header />
           <Route
             exact
             path="/"
