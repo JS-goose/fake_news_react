@@ -5,6 +5,7 @@ import "./App.css";
 import Sidebar from "./components/layout/Sidebar";
 import NewsList from "./components/NewsList";
 import About from "./components/pages/About";
+import Header from "./components/layout/Header"
 
 class App extends Component {
   state = {
@@ -26,6 +27,7 @@ class App extends Component {
     return (
       <Router>
         <section className="App">
+          <Header />
           <Sidebar />
           <Route
             exact
