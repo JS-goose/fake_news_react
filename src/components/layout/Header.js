@@ -9,8 +9,9 @@ class Header extends Component {
       <section id="header-container">
         <h1>Fake News Site</h1>
         <form>
-          <label htmlFor="login">Label</label>
-          <input type="text"></input>
+          <label htmlFor="login">Log In <i className="fas fa-user"></i> </label>
+          <input type="text" placeholder="username"></input>
+          <input type="text" placeholder="password"></input>
         </form>
         
       </section>
