@@ -46,7 +46,15 @@ export default function Header() {
         </ul>
       </nav>
       <section id="latest-stories">
-
+        <ul>
+          <li>News story one</li>
+          <li>News story one</li>
+          <li>News story one</li>
+          <li>News story one</li>
+          <li>News story one</li>
+          <li>News story one</li>
+          <li>News story one</li>
+        </ul>
       </section>
     </header>
   );
