@@ -27,7 +27,7 @@ class App extends Component {
     return (
       <Router>
         <section className="App">
-          <Sidebar />
+          <Sidebar articles={this.state.articles} />
           <Route
             exact
             path="/"

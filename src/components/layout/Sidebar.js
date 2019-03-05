@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header>
+    <header articles={this.props.articles}>
       <nav id="navbar">
         <h1>Fake News Site</h1>
         <ul id="nav-links-list">
