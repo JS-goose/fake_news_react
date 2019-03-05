@@ -9,8 +9,9 @@
   height: 100%;
 }
 
-html, body {
-  font-family: 'Open Sans', sans-serif;
+html,
+body {
+  font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   height: 100%;
 }
@@ -25,8 +26,19 @@ a {
   justify-content: space-between;
   grid-column: 1 / span 3;
   height: 100%;
-  width: 100%; 
-  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+#header-container label,
+input:first-of-type,
+input:nth-of-type(2) {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#header-container input:first-of-type,
+input:nth-of-type(2) {
+  box-shadow: 1px 1px 1px gray;
 }
 
 #nav-header {
@@ -90,7 +102,7 @@ nav h1 {
   color: rgb(110, 202, 233);
   text-align: center;
   font-size: 1.6em;
-  text-shadow: 1px 1px 3px rgb(39,39,39);
+  text-shadow: 1px 1px 3px rgb(39, 39, 39);
 }
 
 #latest-stories a {
