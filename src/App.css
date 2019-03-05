@@ -61,7 +61,7 @@ nav {
   margin-bottom: 20px;
 }
 
-nav ul {
+#nav-links-list {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@ nav ul {
   padding: 10px;
 }
 
-nav ul li {
+#nav-links-list li {
   padding-bottom: 20px;
 }
 
