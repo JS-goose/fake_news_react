@@ -54,6 +54,8 @@ nav ul {
   align-items: center;
   justify-items: flex-end;
   margin-top: 20%;
+  border: 1px solid rgb(63, 62, 62);
+  padding: 10px;
 }
 
 nav ul li {
