@@ -7,7 +7,12 @@ class Header extends Component {
   render() {
     return (
       <section id="header-container">
-        <p>This is the Header section</p>
+        <h1>Fake News Site</h1>
+        <form>
+          <label htmlFor="login">Label</label>
+          <input type="text"></input>
+        </form>
+        
       </section>
     );
   }
