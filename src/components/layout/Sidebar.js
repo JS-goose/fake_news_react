@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class Sidebar extends React.Component {
   render() {
     return (
-      <header articles={this.props.articles}>
+      <header id="nav-header" articles={this.props.articles}>
         <nav id="navbar">
           <h1>Fake News Site</h1>
           <ul id="nav-links-list">
