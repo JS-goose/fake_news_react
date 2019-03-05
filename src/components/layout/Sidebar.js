@@ -7,7 +7,7 @@ export default function Header() {
       <nav id="navbar">
         <h1>Fake News Site</h1>
         <ul>
-          <li className="nav-links-title">
+          <li className="nav-links sidebar-title">
             <p>Sidebar Navigation</p>
           </li>
           <li className="nav-links">
