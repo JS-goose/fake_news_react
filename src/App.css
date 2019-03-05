@@ -22,10 +22,9 @@ a {
 
 #header-container {
   grid-column: 1 / span 3;
-  background-color: lightcoral;
   height: 100%;
   width: 100%; 
-  border: 1px solid black;
+  border-bottom: 1px solid gray;
 }
 
 nav {
