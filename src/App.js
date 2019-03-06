@@ -34,7 +34,7 @@ class App extends Component {
             render={(props) => (
               <section id="news-list-container" articles={this.props.articles}>
                 <Header />
-                <img id="banner" src="https://source.unsplash.com/random" height="200" width="500" alt="a random photo from unsplash.com"/>
+                <img id="banner" src="https://source.unsplash.com/random" height="300" width="500" alt="a random photo from unsplash.com"/>
                 <NewsList articles={this.state.articles} />
               </section>
             )}
