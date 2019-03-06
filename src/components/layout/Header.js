@@ -8,6 +8,7 @@ class Header extends Component {
     return (
       <section id="header-container">
         <h1>Fake News Site</h1>
+        <p><a href="#">Become a supporter</a> | <a href="#">subscribe</a></p>
         <form>
           <label htmlFor="login">Log In <i className="fas fa-user"></i> </label>
           <input type="text" placeholder="username"></input>
