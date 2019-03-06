@@ -7,9 +7,9 @@ class NewsItem extends React.Component {
       <article className="article-list-stories" id={id}>
         <h1 className="article-titles">{title}</h1>
         <p>
-          Here's some sample text from the article Here's some sample text from the article Here's
-          some sample text from the article Here's some sample text from the article Here's some
-          sample text from the article Here's some sample text from the article
+          Spicy jalapeno bacon ipsum dolor amet ham hock tri-tip tongue biltong bresaola. Drumstick
+          shankle meatloaf kevin rump filet mignon. Meatball rump fatback, pork spare ribs pancetta
+          short ribs cupim pastrami frankfurter strip steak.
         </p>
         <div>
           <a href={url}>Article Home</a> | <i className="far fa-thumbs-up" /> {likes} |{" "}
