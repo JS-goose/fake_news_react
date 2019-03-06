@@ -3,7 +3,12 @@ import NewsItem from "./NewsItem";
 
 class NewsList extends React.Component {
   render() {
-    return this.props.articles.map((article) => <NewsItem articles={article} key={article.id} />);
+    return (
+
+      <section id="news-list-container-inner">
+      {this.props.articles.map((article) => <NewsItem articles={article} key={article.id} />)}
+      </section>
+      )
   }
 }
 
