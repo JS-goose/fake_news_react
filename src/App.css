@@ -121,8 +121,6 @@ nav h1 {
 }
 
 #news-list-container {
-  /* display: grid; */
-  color: black;
   width: 100%;
   height: 100%;
   margin: 10px;
