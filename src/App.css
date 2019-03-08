@@ -53,10 +53,14 @@ input:nth-of-type(2) {
 #banner-description {
   display: flex;
   justify-content: center;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 #banner-description p {
+  box-shadow: 1px 1px 3px gray;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
   width: 70%;
 }
 
