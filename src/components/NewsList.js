@@ -5,6 +5,9 @@ class NewsList extends React.Component {
   render() {
     return (
       <React.Fragment>
+        <div id="banner-overlay">
+          <h1>This is the overlay</h1>
+        </div>
         <img
           id="banner"
           src="https://source.unsplash.com/random"
