@@ -50,6 +50,12 @@ input:nth-of-type(2) {
   object-fit: cover;
 }
 
+#banner-overlay {
+  color: white;
+  font-size: 2em;
+  background: red;
+}
+
 #banner-description {
   display: flex;
   justify-content: center;
