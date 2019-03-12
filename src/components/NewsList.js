@@ -5,18 +5,20 @@ class NewsList extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <img
-          id="banner"
-          src="https://source.unsplash.com/random"
-          height="300"
-          width="500"
-          alt="a random banner from unsplash.com"
-        />
-
-        <div id="banner-description">
+        <div id="banner-box-outter">
           <div id="banner-overlay">
             <h1>Breaking news!</h1>
           </div>
+          <img
+            id="banner"
+            src="https://source.unsplash.com/random"
+            height="300"
+            width="500"
+            alt="a random banner from unsplash.com"
+          />
+        </div>
+
+        <div id="banner-description">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud

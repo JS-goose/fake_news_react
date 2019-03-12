@@ -50,10 +50,26 @@ input:nth-of-type(2) {
   object-fit: cover;
 }
 
+#banner-box-outter {
+  width: 100%;
+  height: 340px;
+  display: block;
+  position: relative;
+}
+
 #banner-overlay {
+  width: 20%;
+  margin: 0 20px 10px 0;
   color: white;
   font-size: 2em;
   background: red;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  text-align: center;
+  border: 1px solid rgb(90,90,90);
+  box-shadow: 1px 1px 3px rgb(49, 49, 49);
 }
 
 #banner-description {
