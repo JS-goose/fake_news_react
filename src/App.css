@@ -58,18 +58,26 @@ input:nth-of-type(2) {
 }
 
 #banner-overlay {
-  width: 20%;
+  width: 30%;
+  height: 30%;
   margin: 0 20px 10px 0;
   color: white;
-  font-size: 2em;
-  background: red;
+  background-color: rgba(56, 56, 56, 0.85);
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: 2;
-  text-align: center;
   border: 1px solid rgb(90,90,90);
   box-shadow: 1px 1px 3px rgb(49, 49, 49);
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#banner-overlay h1 {
+  color: red;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 #banner-description {

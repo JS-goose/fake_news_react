@@ -7,7 +7,8 @@ class NewsList extends React.Component {
       <React.Fragment>
         <div id="banner-box-outter">
           <div id="banner-overlay">
-            <h1>Breaking news!</h1>
+            <h1>Breaking News!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
           </div>
           <img
             id="banner"
