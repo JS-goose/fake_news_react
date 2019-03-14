@@ -7,6 +7,10 @@ class Header extends Component {
     password: ''
   }
 
+  handleChange = (event) => {
+    this.setState({ userName: event.target.value, password: event.target.value})
+  }
+
   render() {
     return (
       <section id="header-container">
@@ -14,8 +18,8 @@ class Header extends Component {
         <p><a href="#">Become a supporter</a> | <a href="#">subscribe</a></p>
         <form>
           <label htmlFor="login">Log In <i className="fas fa-user"></i> </label>
-          <input type="text" placeholder="username"></input>
-          <input type="text" placeholder="password"></input>
+          <input type="text" placeholder="username" value={this.state.userName} onChange={this.handleChange}></input>
+          <input type="text" placeholder="password" value={this.state.password} onChange={this.handleChange}></input>
         </form>
         
       </section>
