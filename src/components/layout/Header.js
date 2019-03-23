@@ -8,6 +8,7 @@ class Header extends Component {
   };
 
   handleChange = (event) => {
+    event.preventDefault();
     event.target.id === "UN"
       ? this.setState({ userName: event.target.value })
       : console.error(`Something went wrong with setting un to the state`);
@@ -32,14 +33,12 @@ class Header extends Component {
           <input
             type="text"
             placeholder="username"
-            // value={this.state.userName}
             onChange={this.handleChange}
             id="UN"
           />
           <input
             type="text"
             placeholder="password"
-            // value={this.state.password}
             onChange={this.handleChange}
             id="UP"
           />
