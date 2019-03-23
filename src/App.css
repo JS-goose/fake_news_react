@@ -169,11 +169,14 @@ nav h1 {
 #news-list-container-inner {
   display: grid;
   grid-template-columns: repeat(3, minmax(200px, auto));
+  grid-gap: 20px;
 
 }
 
 .article-list-stories {
   padding: 10px;
+  box-shadow: 1px 1px 5px gray;
+
 }
 
 .article-titles {
@@ -183,5 +186,6 @@ nav h1 {
   text-align: center;
   font-size: 1.3em;
   padding: 5px;
-  background-color: rgb(240, 243, 47);
+  color: rgb(240, 243, 47);
+  background-color: rgb(43, 106, 201);
 }
