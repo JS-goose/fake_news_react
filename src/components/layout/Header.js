@@ -8,7 +8,14 @@ class Header extends Component {
   };
 
   handleChange = (event) => {
-    this.setState({ userName: event.target.value, password: event.target.value });
+    console.log(event.target);
+    if(event.target.id === "UN") {
+      this.setState({userName:event.target.value});
+    }
+
+    if (event.target.id ==="UP") {
+      this.setState({password: event.target.value});
+    }
   };
 
   render() {
@@ -28,12 +35,14 @@ class Header extends Component {
             placeholder="username"
             // value={this.state.userName}
             onChange={this.handleChange}
+            id="UN"
           />
           <input
             type="text"
             placeholder="password"
             // value={this.state.password}
             onChange={this.handleChange}
+            id="UP"
           />
 
         </form>
