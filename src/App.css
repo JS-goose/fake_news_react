@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+#hamburger {
+  display: none;
+}
+
 #header-container {
   display: flex;
   justify-content: space-between;

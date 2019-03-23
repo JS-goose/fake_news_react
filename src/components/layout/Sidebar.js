@@ -6,10 +6,10 @@ class Sidebar extends React.Component {
     return (
       <header id="nav-header" articles={this.props.articles}>
         <nav id="navbar">
-          <h1>Fake News Site </h1>
           <span id="hamburger">
             <i className="fas fa-bars" />
           </span>
+          <h1>Fake News Site </h1>
           <ul id="nav-links-list">
             <li className="sidebar-title">
               <p>Sidebar Navigation</p>
