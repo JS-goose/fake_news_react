@@ -59,16 +59,14 @@ input:nth-of-type(2) {
 
 #banner-overlay {
   width: 100%;
-  color: red;
+  color: rgb(255, 12, 12);
   background-color: rgba(0,0,0, 0.6);
   position: absolute;
   bottom: 0;
   text-align: center;
   padding: 5px;
   margin-bottom: 30px;
-  border-right: 1px solid rgb(211, 208, 208);
-  border-left: 1px solid rgb(211, 208, 208);
-
+  border: 1px solid rgb(211, 208, 208);
 }
 
 #banner-overlay h1 {
