@@ -8,14 +8,13 @@ class Header extends Component {
   };
 
   handleChange = (event) => {
-    console.log(event.target);
-    if(event.target.id === "UN") {
-      this.setState({userName:event.target.value});
-    }
+    event.target.id === "UN"
+      ? this.setState({ userName: event.target.value })
+      : console.error(`Something went wrong with setting un to the state`);
 
-    if (event.target.id ==="UP") {
-      this.setState({password: event.target.value});
-    }
+    event.target.id === "UP"
+      ? this.setState({ password: event.target.value })
+      : console.error(`Something went wrong with setting pw to the state`);
   };
 
   render() {
@@ -44,7 +43,6 @@ class Header extends Component {
             onChange={this.handleChange}
             id="UP"
           />
-
         </form>
       </section>
     );
