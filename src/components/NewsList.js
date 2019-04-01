@@ -29,7 +29,7 @@ class NewsList extends React.Component {
             mollit anim id est laborum.
           </p>
         </div>
-        <h1>Hot Stories of the Day</h1>
+        <h1 id='news-list-container-title'>Hot Stories of the Day</h1>
         <section id="news-list-container-inner">
           {this.props.articles.map((article) => (
             <NewsItem articles={article} key={article.id} />

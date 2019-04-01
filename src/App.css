@@ -175,6 +175,12 @@ nav h1 {
 
 }
 
+#news-list-container-title {
+  font-size: 2em;
+  text-align: center;
+  padding: 5px 0 20px 0;
+}
+
 .article-list-stories {
   padding: 10px;
   box-shadow: 1px 1px 5px gray;
